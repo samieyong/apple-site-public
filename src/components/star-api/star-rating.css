@@ -1,0 +1,12 @@
+.star-rating {
+   display: flex;
+   align-items: center;
+   column-gap: 15px;
+   width: 100%;
+}
+
+.star-wrapper {
+   display: flex;
+   width: 90%;
+   justify-content: space-around;
+}

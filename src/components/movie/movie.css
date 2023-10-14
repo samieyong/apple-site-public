@@ -1,0 +1,31 @@
+.movie-wrapper {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 2rem;
+   border-bottom: 0.1rem solid rgb(45, 45, 45);
+   cursor: pointer;
+   transition: background-color 0.7s;
+}
+.movie-wrapper:hover {
+   background-color: rgb(45, 45, 45);
+   transition: background-color 0.7s;
+}
+.movie-wrapper img {
+   width: 4rem;
+   margin-right: 2rem;
+}
+.movie-summary {
+   width: 100%;
+}
+.title {
+   font-size: 1.4rem;
+   font-weight: 700;
+   color: white;
+   margin-bottom: 1rem;
+   letter-spacing: 0.1rem;
+}
+.date {
+   font-size: 1.2rem;
+   color: white;
+}
